@@ -1,0 +1,90 @@
+.header{
+     /* background-color:red ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(245, 240, 240);
+}
+.header_menuicon{
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.header_menuicon:hover{
+    background-color: rgb(180, 180, 195);
+}
+.header_logo{
+    height: 45px;
+    object-fit: contain;
+    /* margin-left: 20px; */
+}
+
+.header_inputbox{
+    /* background-color: blue; */
+    display: flex;
+    /* align-items: center; */
+    width: 40%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    /* justify-content: space-between;  */
+    /* padding: 1.5px; */
+    /* padding:.2em; */
+    /* background-color: red; */
+
+}
+.header_inputbox> input{
+     flex: 1;
+     border:none; 
+    /* width:10%;*/
+     width: 50px; 
+} 
+.header_searchicon{
+ 
+    width: 50px !important ;
+   
+    /* flex: 1; */
+    /* background-color:rgb(210, 203, 203); */
+    /* border-left: 1px  solid lightgray; */
+    /* border-end-end-radius: 10px; */
+    /* border-start-end-radius: 10px; */
+   /* border-top-left-radius: 10px; */
+   /* border-end-start-radius: 10px; */
+   /* border-top-left-radius: 10px; */
+    /* color: gray; */
+ 
+ }
+ 
+ /* #insearch{ */
+    /* border: 1px solid; */
+    /* border: none; */
+    /* border-radius: 10px; */
+  
+    /* background-color: chocolate; */
+ /* } */
+ 
+ 
+
+.header_micicon{
+border-radius: 40px;
+background-color: rgb(243, 238, 238);
+margin-left: 20px;
+}
+.header_micicon:hover{
+    background-color: rgb(180, 180, 195);
+}
+.header_righticons{
+    display: flex;
+    align-items: center;
+}
+.header_icon{
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.header_icon:hover{
+    background-color: rgb(180, 180, 195);
+}
+

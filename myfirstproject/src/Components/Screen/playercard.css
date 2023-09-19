@@ -1,0 +1,13 @@
+.player{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* margin: 10px 10px; */
+    /* width: 640px; */
+
+    
+}.video{
+    height:300px; 
+    width: 350px; 
+    margin: 30px;
+}

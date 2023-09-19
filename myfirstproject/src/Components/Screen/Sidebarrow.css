@@ -1,0 +1,33 @@
+.sidebarRow{
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+button.sidebarrowicon{
+    color: aquamarine;
+    font-size: large !important;
+}
+.sidebarRow_title{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+button{
+    display: flex;
+    width:50%;
+    margin-left: 20px;
+    /* background-color:lightgray; */
+    /* cursor: pointer; */
+    border-color: lightgray;
+    /* border: none; */
+}
+.sidebarRow:hover{
+    background-color:lightgray;
+    cursor: pointer;
+}.sidebarRow:hover>.sidebarRow_icon{
+    color: red;
+}.sidebarRow:hover>.sidebarRow_title{
+    font-weight: bold;
+}

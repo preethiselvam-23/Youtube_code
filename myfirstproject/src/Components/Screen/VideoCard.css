@@ -1,0 +1,43 @@
+.videoCard{
+    margin-bottom: 10px;
+    width:350px;
+    height: 320px;
+    background-color: rgb(202, 234, 217);
+   margin-right: 10px;
+   padding: 10px;
+}
+ /* .parts{
+    background-color: blue;
+    padding: 10px;
+    border: 1px solid rgb(212, 33, 159);
+    margin: 20px;
+} */
+
+/* .video_text h4{
+    border: 1px solid white;
+} 
+ .video_text {
+    border: 1px solid green;
+    line-height: 1;
+     */
+    
+/* }  */
+ .videocard_thumbnail{
+    width:350px;
+    height: 300px;
+    width: 320px;
+    height: 150px;
+    padding: 10px;
+} 
+
+
+ .videocard_info{
+    display: flex;
+}
+.videoCard_Avatar{
+ margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+
